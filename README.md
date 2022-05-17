@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# reading-notes
+**To keep track of the observations and questions from the reading assignments throughout python course.
 
-You can use the [editor on GitHub](https://github.com/amaniq88/Reading-Notes1/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+* *it is a way to document and highlight the new knowledge. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Code 401 - Advanced Software Development
 
-### Markdown
+**Table of content :**
+- [Learn SQL]( https://amaniq88.github.io/reading-notes/MYSQL)
+- [Terminal](https://amaniq88.github.io/reading-notes/Terminal)
+- [Growth_Mindset](https://amaniq88.github.io/reading-notes/Growth_Mindset)
+- [Read_Class01](https://amaniq88.github.io/reading-notes/Read_Class01)
+- [Read_Class02](https://amaniq88.github.io/reading-notes/Read_Class_02)
+- [Read_Class03](https://amaniq88.github.io/reading-notes/Read_Class03)
+- [Read_Class04](https://amaniq88.github.io/reading-notes/Read_Class_04) 
+- [Read: Linked Lists](https://amaniq88.github.io/reading-notes/Read_Class_05) 
+- [Read_Class_06](https://amaniq88.github.io/reading-notes/Read:_Class_06)
+- [Readings_GameOfGreed_2](https://amaniq88.github.io/reading-notes/Readings_GameOfGreed_2)
+- [Readings: Game_of_Greed3](https://amaniq88.github.io/reading-notes/Readings_Game_of_Greed3)
+- [Readings: ReadClass09](https://amaniq88.github.io/reading-notes/ReadClass09)
+- [Readings: Stack  and Queses ](https://amaniq88.github.io/reading-notes/Read_Stacks_Queues)
+- [Readings_DataAnalysis](https://amaniq88.github.io/reading-notes/Readings_DataAnalysis)
+- [Readings_12](https://amaniq88.github.io/reading-notes/ReadClass12)
+- [Reading13: Linear regression in Python ](https://amaniq88.github.io/reading-notes/Read_Class_13)
+- [Readings14: Data Visualization](https://amaniq88.github.io/reading-notes/Read_Class14)
+- [Readings_Read_Trees](https://amaniq88.github.io/reading-notes/Read_Trees)
+- [READING: Serverless](https://amaniq88.github.io/reading-notes/Serverless)
+- [Readings: Web Scraping](https://amaniq88.github.io/reading-notes/Read_Class17)
+- [Intro to Django](https://amaniq88.github.io/reading-notes/IntrotoDjango)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Readings: Django Models](https://amaniq88.github.io/reading-notes/Readings:DjangoModels)
 
-```markdown
-Syntax highlighted code block
+- [Class28 : Readings: Django CRUD and Forms](https://amaniq88.github.io/reading-notes/Class28)
 
-# Header 1
-## Header 2
-### Header 3
+- [Readings: Django Custom User](https://amaniq88.github.io/reading-notes/class29)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/amaniq88/Reading-Notes1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
