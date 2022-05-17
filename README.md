@@ -30,7 +30,7 @@
 
 - [Readings: Django Models](https://amaniq88.github.io/reading-notes/Readings:DjangoModels)
 
-- [Class28 : Readings: Django CRUD and Forms](https://amaniq88.github.io/Reading-Notes1/)
+- [Class28 : Readings: Django CRUD and Forms](https://amaniq88.github.io/Reading-Notes1/Class28)
 
 - [Readings: Django Custom User](https://amaniq88.github.io/Reading-Notes1/class29)
 
