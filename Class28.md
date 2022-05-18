@@ -473,45 +473,7 @@ The "create" and "update" views use the same template by default, which will be 
 
 Create the template file locallibrary/catalog/templates/catalog/author_form.html and copy in the text below.
 
-{% extends "base_generic.html" %}
 
-{% block content %}
-  <form action="" method="post">
-    {% csrf_token %}
-    <table>
-    {{ form.as_table }}
-    </table>
-    <input type="submit" value="Submit">
-  </form>
-{% endblock %}
-Copy to Clipboard
-This is similar to our previous forms and renders the fields using a table. Note also how again we declare the {% csrf_token %} to ensure that our forms are resistant to CSRF attacks.
-
-The "delete" view expects to find a template named with the format model_name_confirm_delete.html (again, you can change the suffix using template_name_suffix in your view). Create the template file locallibrary/catalog/templates/catalog/author_confirm_delete.html and copy in the text below.
-
-{% extends "base_generic.html" %}
-
-{% block content %}
-
-<h1>Delete Author</h1>
-
-<p>Are you sure you want to delete the author: {{ author }}?</p>
-
-<form action="" method="POST">
-  {% csrf_token %}
-  <input type="submit" value="Yes, delete.">
-</form>
-
-{% endblock %}
-Copy to Clipboard
-URL configurations
-Open your URL configuration file (locallibrary/catalog/urls.py) and add the following configuration to the bottom of the file:
-
-urlpatterns += [
-    path('author/create/', views.AuthorCreate.as_view(), name='author-create'),
-    path('author/<int:pk>/update/', views.AuthorUpdate.as_view(), name='author-update'),
-    path('author/<int:pk>/delete/', views.AuthorDelete.as_view(), name='author-delete'),
-]
 Copy to Clipboard
 There is nothing particularly new here! You can see that the views are classes, and must hence be called via .as_view(), and you should be able to recognize the URL patterns in each case. We must use pk as the name for our captured primary key value, as this is the parameter name expected by the view classes.
 
